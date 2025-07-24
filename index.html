@@ -15,10 +15,13 @@
         background: #eee;
         overflow: hidden;
       }
+
       .container-parent {
         width: 100%;
-        height: 98vh; /* or 100% if parent has defined height */
-        display: flex; /* or grid */
+        height: 98vh;
+        /* or 100% if parent has defined height */
+        display: flex;
+        /* or grid */
         align-items: center;
         justify-content: center;
         overflow: hidden;
@@ -35,7 +38,7 @@
 
       #speakBtn {
         display: none;
-        position: absolute;
+
         z-index: 1000;
         padding: 5px 10px;
         background: #007bff;
@@ -55,6 +58,9 @@
         width: 100%;
         height: auto;
       }
+      p {
+        font-size: 20px;
+      }
 
       @media (max-width: 768px) {
         .container-parent {
@@ -63,6 +69,7 @@
       }
     </style>
   </head>
+
   <body>
     <div class="container-parent">
       <div id="magazine" class="container">
@@ -72,725 +79,191 @@
             height="100%;"
             src="/images/pageimage4.png"
             alt="background image"
-            style="position: relative;"
+            style="position: relative"
           />
 
-          <div style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; bottom: 0; right: 0;">
-            <div>
-              <p
-                style="
-                  position: absolute;
-                  top: 181px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+          <div
+            style="
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              display: flex;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              margin-left: 20px;
+              margin-right: 20px;
+            "
+          >
+            <div style="width: 50%; position: relative; top: 10%">
+              <p>
                 <b>Angiographic Imaging</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 195px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Imaging technique used to visualize&nbsp;<br />
-                blood vessels and detect&nbsp;<br />
+              <p>
+                Imaging technique used to visualize blood vessels and detect
                 abnormalities.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 231px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Angioplasty</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 245px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                A procedure to widen narrowed or&nbsp;<br />
-                obstructed arteries using a balloon&nbsp;<br />
-                catheter.
+              <p>
+                A procedure to widen narrowed or obstructed arteries using a
+                balloon catheter.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 281px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Anticoagulation Therapy</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 295px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Use of medications to prevent blood&nbsp;<br />
-                clot formation and reduce the risk&nbsp;<br />
-                of thromboembolic events.
+              <p>
+                Use of medications to prevent blood clot formation and reduce
+                the risk of thromboembolic events.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 330px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Arterial Access</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 344px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Establishing access to an artery for&nbsp;<br />
-                diagnostic or therapeutic&nbsp;<br />
+              <p>
+                Establishing access to an artery for diagnostic or therapeutic
                 procedures.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 380px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Arterial Occlusion</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 394px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Blockage of an artery that impedes&nbsp;<br />
-                blood flow to tissues or organs.
+              <p>
+                Blockage of an artery that impedes blood flow to tissues or
+                organs.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 418px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Atherosclerosis</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 432px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                The buildup of fatty deposits on the&nbsp;<br />
-                inner walls of arteries, leading to&nbsp;<br />
-                reduced blood flow.
+              <p>
+                The buildup of fatty deposits on the inner walls of arteries,
+                leading to reduced blood flow.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 468px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Atrial Septal Defect (ASD)</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 482px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                A congenital defect characterized&nbsp;<br />
-                by a hole in the atrial septum.
+              <p>
+                A congenital defect characterized by a hole in the atrial
+                septum.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 520px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 18px;
-                  font-family: 'Lato';
-                  color: #5382c3;
-                "
-              >
+              <p>
                 <b>B</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 525px;
-                  left: 33px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>alloon Deflation</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 540px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Process of deflating a balloon after&nbsp;<br />
-                it has been used to widen a vessel.
+              <p>
+                Process of deflating a balloon after it has been used to widen a
+                vessel.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 564px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Balloon Inflation</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 579px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Process of expanding a balloon&nbsp;<br />
-                within a vessel to open or widen a&nbsp;<br />
-                blockage.
+              <p>
+                Process of expanding a balloon within a vessel to open or widen
+                a blockage.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 628px;
-                  left: 21px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 18px;
-                  font-family: 'Lato';
-                  color: #5382c3;
-                "
-              >
+              <p>
                 <b>C</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 633px;
-                  left: 34px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>ardiac Catheterization</b>
               </p>
             </div>
 
-            <div>
-              <p
-                style="
-                  position: absolute;
-                  top: 93px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Procedure to diagnose and treat&nbsp;<br />
-                heart&nbsp;<br />
-                conditions by inserting a catheter&nbsp;<br />
-                into the heart or blood vessels.
+            <div style="width: 50%; position: relative; top: 10%">
+              <p>
+                Procedure to diagnose and treat heart conditions by inserting a
+                catheter into the heart or blood vessels.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 141px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Cardiovascular Devices</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 155px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Medical devices used to diagnose or&nbsp;<br />
-                treat cardiovascular conditions,&nbsp;<br />
-                such as stents and pacemakers.&nbsp;
+              <p>
+                Medical devices used to diagnose or treat cardiovascular
+                conditions, such as stents and pacemakers.&nbsp;
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 191px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Catheterization</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 205px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                The insertion of a catheter into a&nbsp;<br />
-                blood&nbsp;<br />
-                vessel to diagnose or treat&nbsp;<br />
-                conditions.
+              <p>
+                The insertion of a catheter into a blood vessel to diagnose or
+                treat conditions.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 253px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Chronic Total Occlusion (CTO)</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 267px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Complete blockage of an artery that&nbsp;<br />
-                has persisted for a long time.
+              <p>
+                Complete blockage of an artery that has persisted for a long
+                time.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 291px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Clinical Trials</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 305px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Research studies conducted to&nbsp;<br />
-                evaluate the effectiveness and&nbsp;<br />
-                safety of medical treatments or&nbsp;<br />
-                devices.
+              <p>
+                Research studies conducted to evaluate the effectiveness and
+                safety of medical treatments or devices.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 352px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Coarctation of the Aorta</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 366px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Narrowing of the aorta that&nbsp;<br />
-                impedes blood flow, often requiring&nbsp;<br />
+              <p>
+                Narrowing of the aorta that impedes blood flow, often requiring
                 surgical repair.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 503px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Congenital Heart Defects</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 517px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Abnormalities in the heart structure&nbsp;<br />
-                present at birth, affecting its&nbsp;<br />
-                function.
+              <p>
+                Abnormalities in the heart structure present at birth, affecting
+                its function.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 552px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Congenital Heart Disease</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 566px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Heart conditions present at birth&nbsp;<br />
-                that affect the structure and&nbsp;<br />
+              <p>
+                Heart conditions present at birth that affect the structure and
                 function of the heart.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 602px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>Coronary Angiography</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 616px;
-                  left: 202px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                Imaging technique used to visualize&nbsp;<br />
-                the coronary arteries and assess&nbsp;<br />
-                blood flow.
+              <p>
+                Imaging technique used to visualize the coronary arteries and
+                assess blood flow.
               </p>
 
-              <p
-                style="
-                  position: absolute;
-                  top: 663px;
-                  left: 350px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 15px;
-                  font-family: 'Lato';
-                  color: #1a1a18;
-                "
-              >
-                03
-              </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 94px;
-                  left: 104px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 18px;
-                  font-family: 'Lato';
-                  color: #5382c3;
-                "
-              >
+              <p>03</p>
+              <p>
                 <b>A</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 99px;
-                  left: 117px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 12px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
+              <p>
                 <b>ccess Sheath</b>
               </p>
-              <p
-                style="
-                  position: absolute;
-                  top: 113px;
-                  left: 104px;
-                  white-space: nowrap;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 11px;
-                  line-height: 11px;
-                  font-family: 'Lato';
-                  color: #393939;
-                "
-              >
-                A tube inserted&nbsp;<br />
-                into a blood vessel&nbsp;<br />
-                to provide access&nbsp;<br />
-                for other devices&nbsp;<br />
-                or procedures.
+              <p>
+                A tube inserted into a blood vessel to provide access for other
+                devices or procedures.
               </p>
             </div>
           </div>
         </div>
-
-        
       </div>
     </div>
 
