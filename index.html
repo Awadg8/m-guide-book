@@ -8,6 +8,12 @@
     <script type="text/javascript" src="/turn.js"></script>
 
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
       body {
         margin: 5px;
         padding: 0;
@@ -38,7 +44,6 @@
 
       #speakBtn {
         display: none;
-
         z-index: 1000;
         padding: 5px 10px;
         background: #007bff;
@@ -58,8 +63,14 @@
         width: 100%;
         height: auto;
       }
+
       p {
-        font-size: 20px;
+        font-size: 1.2rem;
+        margin-top: 15px;
+      }
+
+      span {
+        color: #5382c3;
       }
 
       @media (max-width: 768px) {
@@ -73,7 +84,7 @@
   <body>
     <div class="container-parent">
       <div id="magazine" class="container">
-        <div style="position: relative; width: 100%; height: 100%">
+        <div style="position: relative; width: 100%; height: 100%" class="para">
           <img
             width="100%;"
             height="100%;"
@@ -84,10 +95,9 @@
 
           <div
             style="
-              width: 100%;
-              height: 100%;
               position: absolute;
               display: flex;
+              flex-direction: column;
               top: 0;
               left: 0;
               bottom: 0;
@@ -96,171 +106,176 @@
               margin-right: 20px;
             "
           >
-            <div style="width: 50%; position: relative; top: 10%">
+            <div style="height: 11%; text-align: center; align-content: center;">
               <p>
-                <b>Angiographic Imaging</b>
-              </p>
-              <p>
-                Imaging technique used to visualize blood vessels and detect
-                abnormalities.
+                <b>Vascular Intervention</b>
               </p>
 
               <p>
-                <b>Angioplasty</b>
-              </p>
-              <p>
-                A procedure to widen narrowed or obstructed arteries using a
-                balloon catheter.
-              </p>
-
-              <p>
-                <b>Anticoagulation Therapy</b>
-              </p>
-              <p>
-                Use of medications to prevent blood clot formation and reduce
-                the risk of thromboembolic events.
-              </p>
-
-              <p>
-                <b>Arterial Access</b>
-              </p>
-              <p>
-                Establishing access to an artery for diagnostic or therapeutic
-                procedures.
-              </p>
-
-              <p>
-                <b>Arterial Occlusion</b>
-              </p>
-              <p>
-                Blockage of an artery that impedes blood flow to tissues or
-                organs.
-              </p>
-
-              <p>
-                <b>Atherosclerosis</b>
-              </p>
-              <p>
-                The buildup of fatty deposits on the inner walls of arteries,
-                leading to reduced blood flow.
-              </p>
-
-              <p>
-                <b>Atrial Septal Defect (ASD)</b>
-              </p>
-              <p>
-                A congenital defect characterized by a hole in the atrial
-                septum.
-              </p>
-
-              <p>
-                <b>B</b>
-              </p>
-              <p>
-                <b>alloon Deflation</b>
-              </p>
-              <p>
-                Process of deflating a balloon after it has been used to widen a
-                vessel.
-              </p>
-
-              <p>
-                <b>Balloon Inflation</b>
-              </p>
-              <p>
-                Process of expanding a balloon within a vessel to open or widen
-                a blockage.
-              </p>
-
-              <p>
-                <b>C</b>
-              </p>
-              <p>
-                <b>ardiac Catheterization</b>
+                <b>Generic</b>
               </p>
             </div>
 
-            <div style="width: 50%; position: relative; top: 10%">
-              <p>
-                Procedure to diagnose and treat heart conditions by inserting a
-                catheter into the heart or blood vessels.
-              </p>
+            <div style="display: flex; height: 85%">
+              <div style="width: 50%; position: relative">
+                <p>
+                  <b><span>A</span>ccess Sheath</b>
+                </p>
+                <p>
+                  A tube inserted into a blood vessel to provide access for
+                  other devices or procedures.
+                </p>
+                <p>
+                  <b>Angiographic Imaging</b>
+                </p>
+                <p>
+                  Imaging technique used to visualize blood vessels and detect
+                  abnormalities.
+                </p>
 
-              <p>
-                <b>Cardiovascular Devices</b>
-              </p>
-              <p>
-                Medical devices used to diagnose or treat cardiovascular
-                conditions, such as stents and pacemakers.&nbsp;
-              </p>
+                <p>
+                  <b>Angioplasty</b>
+                </p>
+                <p>
+                  A procedure to widen narrowed or obstructed arteries using a
+                  balloon catheter.
+                </p>
 
-              <p>
-                <b>Catheterization</b>
-              </p>
-              <p>
-                The insertion of a catheter into a blood vessel to diagnose or
-                treat conditions.
-              </p>
+                <p>
+                  <b>Anticoagulation Therapy</b>
+                </p>
+                <p>
+                  Use of medications to prevent blood clot formation and reduce
+                  the risk of thromboembolic events.
+                </p>
 
-              <p>
-                <b>Chronic Total Occlusion (CTO)</b>
-              </p>
-              <p>
-                Complete blockage of an artery that has persisted for a long
-                time.
-              </p>
+                <p>
+                  <b>Arterial Access</b>
+                </p>
+                <p>
+                  Establishing access to an artery for diagnostic or therapeutic
+                  procedures.
+                </p>
 
-              <p>
-                <b>Clinical Trials</b>
-              </p>
-              <p>
-                Research studies conducted to evaluate the effectiveness and
-                safety of medical treatments or devices.
-              </p>
+                <p>
+                  <b>Arterial Occlusion</b>
+                </p>
+                <p>
+                  Blockage of an artery that impedes blood flow to tissues or
+                  organs.
+                </p>
 
-              <p>
-                <b>Coarctation of the Aorta</b>
-              </p>
-              <p>
-                Narrowing of the aorta that impedes blood flow, often requiring
-                surgical repair.
-              </p>
+                <p>
+                  <b>Atherosclerosis</b>
+                </p>
+                <p>
+                  The buildup of fatty deposits on the inner walls of arteries,
+                  leading to reduced blood flow.
+                </p>
 
-              <p>
-                <b>Congenital Heart Defects</b>
-              </p>
-              <p>
-                Abnormalities in the heart structure present at birth, affecting
-                its function.
-              </p>
+                <p>
+                  <b>Atrial Septal Defect (ASD)</b>
+                </p>
+                <p>
+                  A congenital defect characterized by a hole in the atrial
+                  septum.
+                </p>
 
-              <p>
-                <b>Congenital Heart Disease</b>
-              </p>
-              <p>
-                Heart conditions present at birth that affect the structure and
-                function of the heart.
-              </p>
+                <p>
+                  <b><span>B</span>alloon Deflation</b>
+                </p>
+                <p>
+                  Process of deflating a balloon after it has been used to widen
+                  a vessel.
+                </p>
 
-              <p>
-                <b>Coronary Angiography</b>
-              </p>
-              <p>
-                Imaging technique used to visualize the coronary arteries and
-                assess blood flow.
-              </p>
+                <p>
+                  <b>Balloon Inflation</b>
+                </p>
+                <p>
+                  Process of expanding a balloon within a vessel to open or
+                  widen a blockage.
+                </p>
 
+                <p>
+                  <b><span>C</span>ardiac Catheterization</b>
+                </p>
+              </div>
+
+              <div style="width: 50%; position: relative">
+                <p>
+                  Procedure to diagnose and treat heart conditions by inserting
+                  a catheter into the heart or blood vessels.
+                </p>
+
+                <p>
+                  <b>Cardiovascular Devices</b>
+                </p>
+                <p>
+                  Medical devices used to diagnose or treat cardiovascular
+                  conditions, such as stents and pacemakers.&nbsp;
+                </p>
+
+                <p>
+                  <b>Catheterization</b>
+                </p>
+                <p>
+                  The insertion of a catheter into a blood vessel to diagnose or
+                  treat conditions.
+                </p>
+
+                <p>
+                  <b>Chronic Total Occlusion (CTO)</b>
+                </p>
+                <p>
+                  Complete blockage of an artery that has persisted for a long
+                  time.
+                </p>
+
+                <p>
+                  <b>Clinical Trials</b>
+                </p>
+                <p>
+                  Research studies conducted to evaluate the effectiveness and
+                  safety of medical treatments or devices.
+                </p>
+
+                <p>
+                  <b>Coarctation of the Aorta</b>
+                </p>
+                <p>
+                  Narrowing of the aorta that impedes blood flow, often
+                  requiring surgical repair.
+                </p>
+
+                <p>
+                  <b>Congenital Heart Defects</b>
+                </p>
+                <p>
+                  Abnormalities in the heart structure present at birth,
+                  affecting its function.
+                </p>
+
+                <p>
+                  <b>Congenital Heart Disease</b>
+                </p>
+                <p>
+                  Heart conditions present at birth that affect the structure
+                  and function of the heart.
+                </p>
+
+                <p>
+                  <b>Coronary Angiography</b>
+                </p>
+                <p>
+                  Imaging technique used to visualize the coronary arteries and
+                  assess blood flow.
+                </p>
+              </div>
+            </div>
+
+            <div style="height: 4%; text-align: end; padding-right: 4%;">
               <p>03</p>
-              <p>
-                <b>A</b>
-              </p>
-              <p>
-                <b>ccess Sheath</b>
-              </p>
-              <p>
-                A tube inserted into a blood vessel to provide access for other
-                devices or procedures.
-              </p>
             </div>
           </div>
         </div>
